@@ -1,0 +1,20 @@
+{
+  "hey_mama":
+  {
+    "local_server": "True",
+    "local_uri": "mysql://root:@localhost/marjukblog",
+    "prod_uri": "mysql://root:@localhost/marjukblog",
+    "fb_url": "https://facebook.com",
+    "tw_url": "https://twitter.com",
+    "gh_url": "https://github.com",
+    "blog_name": "Marjuk's Blog",
+    "tagline": "Hey..This is a blog for python programming..",
+    "gmail_user": "marjuk.sma@gmail.com",
+    "gmail_pass": "marjuk01796007871",
+    "about_txt": "My name is Marjuk Ahmed Siddiki. I am a student. I read in Bsc in CSE in Daffodil International University. And I would be a good programmer.",
+    "no_of_post": 4,
+    "admin_mail": "marjukloveritu",
+    "admin_pass": "12345",
+    "uploader_location": "C:\\Users\\marju\\PycharmProjects\\Marjuk_Flask\\static\\img"
+  }
+}

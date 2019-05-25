@@ -1,0 +1,38 @@
+{% extends "common.html" %}
+{% block body %}
+
+
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('{{url_for('static',filename='img/home-bg.jpg') }}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Uploader File</h1>
+            <span class="subheading">File Uploader Desition</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <td><a href="/admin"><button class="btn btn-primary">Dashboard</button></a></td><hr>
+
+
+        Your File Successfully Uploaded...<hr>
+        Congratulation....!!!!!!
+
+
+
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

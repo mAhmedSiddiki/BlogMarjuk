@@ -1,0 +1,42 @@
+{% extends "common.html" %}
+{% block body %}
+
+
+<header class="masthead" style="background-image: url('{{url_for('static',filename='img/about-bg.jpg') }}')">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="page-heading">
+          <h1>Admin Login</h1>
+          <span class="subheading">...This is a admin login page...</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <form class="form-signin" action="/admin" method="post">
+        <marquee><b>{{wrong}}</b></marquee>
+        <h1 class="h3 mb-3 font-weight-normal">Admin Login</h1>
+        <label for="uname" class="sr-only">User Name</label>
+          <input type="text" id="uname" name="uname" class="form-control" placeholder="User Name" required autofocus>
+        <label for="pass" class="sr-only">Password</label>
+          <input type="password" id="pass" name="pass" class="form-control" placeholder="Password" required>
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2017-2019</p>
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
